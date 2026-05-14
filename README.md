@@ -36,6 +36,6 @@ View Project on GitHub
 LinkedIn Profile : https://www.linkedin.com/in/ibadrmohamed/
 
 ✨ Portfolio Website
-Explore my full portfolio and interactive dashboards:https://github.com/ibadrmohamed/Badr-Mohamed-Portfolio
+Explore my full portfolio and interactive dashboards: https://ibadrmohamed.github.io/Badr-Mohamed-Portfolio/
 
 
