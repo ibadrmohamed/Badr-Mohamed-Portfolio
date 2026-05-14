@@ -1,4 +1,4 @@
-[Badr_Mohamed_-_Data_Analyst_Portfolio.docx](https://github.com/user-attachments/files/27738761/Badr_Mohamed_-_Data_Analyst_Portfolio.docx)Badr Mohamed - Data Analyst Portfolio
+Badr Mohamed - Data Analyst Portfolio
 🚀 About Me
 I am a highly motivated and results-oriented Data Analyst with 2 years of experience, proficient in transforming complex datasets into actionable business intelligence. My expertise spans data cleaning, visualization, and trend analysis, utilizing advanced tools to drive data-driven decision-making. I am passionate about leveraging analytical thinking and attention to detail to uncover key business insights and optimize operational efficiency.
 
