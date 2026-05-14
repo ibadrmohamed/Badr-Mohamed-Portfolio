@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badr Mohamed - Data Analyst Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="templatemo-nexaverse.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader-ring"></div>
+        <div class="loading-text">Initializing Experience...</div>
+    </div>
+
+    <!-- Ambient Background -->
+    <div class="ambient-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Grid Overlay -->
+    <div class="grid-overlay"></div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <div class="header" id="mainHeader">
+            <div class="logo">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#00f0ff"/>
+                            <stop offset="100%" style="stop-color:#ff00d4"/>
+                        </linearGradient>
+                    </defs>
+                    <polygon points="50,5 95,30 95,70 50,95 5,70 5,30" fill="none" stroke="url(#logoGradient)" stroke-width="2"/>
+                    <polygon points="50,20 80,37 80,63 50,80 20,63 20,37" fill="none" stroke="url(#logoGradient)" stroke-width="1.5" opacity="0.6"/>
+                    <circle cx="50" cy="50" r="12" fill="url(#logoGradient)" opacity="0.3"/>
+                    <circle cx="50" cy="50" r="6" fill="url(#logoGradient)"/>
+                </svg>
+            </div>
+            <h1 class="brand-name">Badr Mohamed</h1>
+            <p class="tagline">Data Analyst | SQL | Power BI | Excel</p>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="menu-grid" id="menuGrid">
+            <div class="menu-item initial-load" data-section="introduction">
+                <div class="menu-badge">IN</div>
+                <div class="menu-title">Introduction</div>
+            </div>
+            <div class="menu-item initial-load" data-section="services">
+                <div class="menu-badge">SV</div>
+                <div class="menu-title">Services</div>
+            </div>
+            <div class="menu-item initial-load" data-section="gallery">
+                <div class="menu-badge">GL</div>
+                <div class="menu-title">Projects</div>
+            </div>
+            <div class="menu-item initial-load" data-section="testimonials">
+                <div class="menu-badge">TM</div>
+                <div class="menu-title">Skills</div>
+            </div>
+            <div class="menu-item initial-load" data-section="about">
+                <div class="menu-badge">AB</div>
+                <div class="menu-title">About</div>
+            </div>
+            <div class="menu-item initial-load" data-section="contact">
+                <div class="menu-badge">CT</div>
+                <div class="menu-title">Contact</div>
+            </div>
+        </div>
+
+        <!-- Content Sections -->
+        <div id="contentArea">
+            <!-- Introduction Section -->
+            <div class="content-section" id="introduction">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGrad)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad)"/>
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>BADR MOHAMED</h3>
+                        <p>Data Analyst</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+                
+                <!-- Hero Banner -->
+                <div class="intro-hero">
+                    <div class="intro-hero-content">
+                        <span class="intro-badge">Data Analyst</span>
+                        <h1 class="intro-headline">Transforming Data Into<br><span>Actionable Insights</span></h1>
+                        <p class="intro-subtext">Proficient in SQL, Power BI, and Excel with demonstrated expertise in data cleaning, visualization, and trend analysis. Successfully completed projects analyzing insurance cost drivers and COVID-19 trends, utilizing advanced analytical techniques to support data-driven decision-making.</p>
+                        <div class="intro-cta-group">
+                            <button class="intro-cta-primary" onclick="window.open('https://github.com/ibadrmohamed/Badr-Mohamed-Portfolio', '_blank')">View My Projects</button>
+                            <button class="intro-cta-secondary" onclick="window.open('https://github.com/ibadrmohamed/Badr-Mohamed-Portfolio', '_blank')">Download CV</button>
+                        </div>
+                    </div>
+                    <div class="intro-hero-visual">
+                        <div class="intro-floating-card card-1">
+                            <span class="card-icon">📊</span>
+                            <span class="card-text">Data Analysis</span>
+                        </div>
+                        <div class="intro-floating-card card-2">
+                            <span class="card-icon">🎯</span>
+                            <span class="card-text">Insights Driven</span>
+                        </div>
+                        <div class="intro-floating-card card-3">
+                            <span class="card-icon">💡</span>
+                            <span class="card-text">Problem Solver</span>
+                        </div>
+                        <div class="intro-orb"></div>
+                    </div>
+                </div>
+
+                <!-- Metrics Strip -->
+                <div class="intro-metrics">
+                    <div class="metric-item">
+                        <span class="metric-value" data-target="3">0</span>
+                        <span class="metric-label">Major Projects</span>
+                    </div>
+                    <div class="metric-divider"></div>
+                    <div class="metric-item">
+                        <span class="metric-value" data-target="2">0</span>
+                        <span class="metric-label">Years Experience</span>
+                    </div>
+                    <div class="metric-divider"></div>
+                    <div class="metric-item">
+                        <span class="metric-value" data-target="3">0</span>
+                        <span class="metric-label">Core Technologies</span>
+                    </div>
+                    <div class="metric-divider"></div>
+                    <div class="metric-item">
+                        <span class="metric-value">100%</span>
+                        <span class="metric-label">Dedicated</span>
+                    </div>
+                </div>
+
+                <!-- Core Values -->
+                <div class="intro-values">
+                    <div class="value-card">
+                        <div class="value-number">01</div>
+                        <h3>Data Integrity</h3>
+                        <p>Meticulous attention to detail in data cleaning and validation to ensure accuracy and reliability in all analytical work.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-number">02</div>
+                        <h3>Analytical Thinking</h3>
+                        <p>Deep problem-solving capabilities combined with advanced data interpretation to uncover meaningful business insights.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-number">03</div>
+                        <h3>Results Focused</h3>
+                        <p>Committed to delivering actionable insights that drive informed decision-making and measurable business outcomes.</p>
+                    </div>
+                </div>
+
+                <!-- Tech Stack Preview -->
+                <div class="intro-tech">
+                    <p class="tech-label">Technologies & Tools</p>
+                    <div class="tech-marquee">
+                        <div class="tech-track">
+                            <span class="tech-item">SQL</span>
+                            <span class="tech-item">Power BI</span>
+                            <span class="tech-item">Excel</span>
+                            <span class="tech-item">Data Visualization</span>
+                            <span class="tech-item">ETL Processes</span>
+                            <span class="tech-item">Database Management</span>
+                            <span class="tech-item">SQL</span>
+                            <span class="tech-item">Power BI</span>
+                            <span class="tech-item">Excel</span>
+                            <span class="tech-item">Data Visualization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services Section -->
+            <div class="content-section" id="services">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGrad2)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad2)"/>
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>SERVICES</h3>
+                        <p>What I Offer</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Services</h2>
+                    <p class="section-subtitle">Specialized data analysis and insights</p>
+                </div>
+
+                <div class="services-tabs">
+                    <div class="service-tab-buttons">
+                        <button class="service-tab-btn active" onclick="switchServiceTab(0)">Data Analysis</button>
+                        <button class="service-tab-btn" onclick="switchServiceTab(1)">Visualization</button>
+                        <button class="service-tab-btn" onclick="switchServiceTab(2)">Database</button>
+                    </div>
+
+                    <div class="service-tab-content">
+                        <div class="service-tab active">
+                            <div class="service-card">
+                                <h3>SQL Data Analysis</h3>
+                                <p>Advanced SQL querying with joins, aggregations, window functions, and CASE statements. I specialize in extracting meaningful patterns from complex datasets and performing comprehensive trend analysis.</p>
+                            </div>
+                            <div class="service-card">
+                                <h3>Statistical Analysis</h3>
+                                <p>Applying analytical techniques to identify key business drivers and insights. Experience with customer segmentation, risk profiling, and comparative analysis across multiple dimensions.</p>
+                            </div>
+                            <div class="service-card">
+                                <h3>Trend Analysis</h3>
+                                <p>Comprehensive analysis of historical data to identify patterns and trends. Skilled in calculating metrics like infection rates, death percentages, and rolling case averages for informed forecasting.</p>
+                            </div>
+                        </div>
+
+                        <div class="service-tab">
+                            <div class="service-card">
+                                <h3>Power BI Dashboards</h3>
+                                <p>Creating interactive dashboards and reports that transform raw data into visual insights. Expertise in building responsive visualizations that support real-time business intelligence.</p>
+                            </div>
+                            <div class="service-card">
+                                <h3>Excel Visualization</h3>
+                                <p>Advanced Excel charting and pivot table creation. Proficient in data cleaning, formula development, and creating professional reports using VLOOKUP, pivot tables, and advanced formatting.</p>
+                            </div>
+                            <div class="service-card">
+                                <h3>Data Presentation</h3>
+                                <p>Translating complex data into clear, compelling visualizations. Skilled at communicating insights to both technical and non-technical stakeholders through effective visual storytelling.</p>
+                            </div>
+                        </div>
+
+                        <div class="service-tab">
+                            <div class="service-card">
+                                <h3>ETL Processes</h3>
+                                <p>Designing and implementing ETL workflows. Experience extracting data from CSV and JSON files, cleaning and transforming data using SQL, and loading into structured databases for analysis.</p>
+                            </div>
+                            <div class="service-card">
+                                <h3>Database Management</h3>
+                                <p>Proficient in relational database design and management. Skilled in data organization, query optimization, and maintaining data integrity across complex database structures.</p>
+                            </div>
+                            <div class="service-card">
+                                <h3>Data Cleaning</h3>
+                                <p>Expert-level data cleaning and transformation. Experienced in handling missing values, standardizing formats, and preparing raw data for accurate analysis and reporting.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery/Projects Section -->
+            <div class="content-section" id="gallery">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGrad3)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad3)"/>
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>PROJECTS</h3>
+                        <p>My Work</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Data analysis projects that drive insights</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item" onclick="window.open('https://github.com/ibadrmohamed/Badr-Mohamed-Portfolio/tree/main/Zara%20Sales%20Performance', '_blank')" style="cursor: pointer;">
+                        <div class="gallery-item-image">
+                            <img src="zara_cover.png" alt="Zara Sales Performance">
+                        </div>
+                        <div class="gallery-item-content">
+                            <h3>Zara Sales Performance</h3>
+                            <p class="project-tech">Power BI • SQL • Excel • 2025 - Present</p>
+                            <p>Developed an executive-level interactive dashboard synthesizing 3,000+ product records across five categories. Engineered multi-dimensional filtering architecture using parameterized slicers. Identified that premium products account for 40% of revenue despite 15% unit volume; front-of-store placement generates 2.1x higher revenue velocity; seasonal promotions drive 35% incremental lift in mid-range sales.</p>
+                            <p style="margin-top: 10px; color: var(--primary); font-size: 12px; font-weight: 500;">→ View on GitHub</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="window.open('https://github.com/ibadrmohamed/Badr-Mohamed-Portfolio/tree/main/Insurance', '_blank')" style="cursor: pointer;">
+                        <div class="gallery-item-image">
+                            <img src="insurance_cover.png" alt="Insurance Data Analysis">
+                        </div>
+                        <div class="gallery-item-content">
+                            <h3>Insurance Data Analysis</h3>
+                            <p class="project-tech">SQL • Power BI • Excel • 2025 - Present</p>
+                            <p>Examined 1,338K customer records to identify key drivers of insurance charges. Discovered that smokers pay 3–4x more than non-smokers across all regions. Segmented customers by age group, BMI category, and smoking status using SQL (CASE statements, window functions, aggregations) to support comprehensive risk profiling.</p>
+                            <p style="margin-top: 10px; color: var(--primary); font-size: 12px; font-weight: 500;">→ View on GitHub</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="window.open('https://github.com/ibadrmohamed/Badr-Mohamed-Portfolio/tree/main/Covid', '_blank')" style="cursor: pointer;">
+                        <div class="gallery-item-image">
+                            <img src="covid_cover.png" alt="COVID-19 Data Analysis">
+                        </div>
+                        <div class="gallery-item-content">
+                            <h3>COVID-19 Data Analysis</h3>
+                            <p class="project-tech">SQL • Power BI • Excel • 2024-2025</p>
+                            <p>Investigated global COVID-19 data using SQL to calculate infection rates, death percentages, and rolling case averages across 1.44B population data points. Identified top 10 countries with highest infection rates relative to population. Analyzed regional trends across Europe, Asia, and North America with comprehensive trend analysis.</p>
+                            <p style="margin-top: 10px; color: var(--primary); font-size: 12px; font-weight: 500;">→ View on GitHub</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills/Testimonials Section -->
+            <div class="content-section" id="testimonials">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGrad4)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad4)"/>
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>SKILLS</h3>
+                        <p>Technical Expertise</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <p class="section-subtitle">Languages, tools, and expertise</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text"><strong>Languages & Querying:</strong> SQL (Joins, Aggregations, Window Functions, CASE statements)</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar" style="background: linear-gradient(135deg, #00f0ff, #ff00d4);">
+                                <span style="font-size: 24px;">📝</span>
+                            </div>
+                            <div class="author-info">
+                                <h5>Core Competency</h5>
+                                <p>Advanced SQL Expertise</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text"><strong>Data Visualization:</strong> Power BI (Dashboards, Interactive Reports), Excel Charts</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar" style="background: linear-gradient(135deg, #00f0ff, #ff00d4);">
+                                <span style="font-size: 24px;">📊</span>
+                            </div>
+                            <div class="author-info">
+                                <h5>Core Competency</h5>
+                                <p>Data Visualization</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text"><strong>Spreadsheets:</strong> Microsoft Excel (Pivot Tables, VLOOKUP, Data Cleaning, Formulas)</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar" style="background: linear-gradient(135deg, #00f0ff, #ff00d4);">
+                                <span style="font-size: 24px;">📈</span>
+                            </div>
+                            <div class="author-info">
+                                <h5>Core Competency</h5>
+                                <p>Excel Mastery</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Section -->
+            <div class="content-section" id="about">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGrad5)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad5)"/>
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>ABOUT</h3>
+                        <p>About Me</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">My professional journey</p>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Data Analyst Professional</h3>
+                        <p>I am a dedicated Data Analyst proficient in SQL, Power BI, and Excel with demonstrated expertise in data cleaning, visualization, and trend analysis. I have successfully completed projects analyzing insurance cost drivers and COVID-19 trends, utilizing advanced analytical techniques to uncover key business insights.</p>
+                        
+                        <h3>Education</h3>
+                        <p><strong>Zagazig University</strong> - Bachelor of Commerce, English Section (Graduated 2021)</p>
+                        
+                        <h3>Professional Approach</h3>
+                        <p>I am eager to leverage my analytical thinking and attention to detail in an entry-level analyst role to support data-driven decision-making. My approach combines rigorous data validation with creative problem-solving to transform raw data into actionable insights that drive business value.</p>
+                        
+                        <h3>Experience & Training</h3>
+                        <p>I have completed comprehensive SQL training, gaining proficiency in writing queries, filtering data, and using joins to analyze relational databases. I have developed Power BI dashboards as part of coursework, transforming raw data into interactive visualizations. Additionally, I have strengthened my Excel skills through structured training, mastering pivot tables, VLOOKUP, and data cleaning techniques.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="content-section" id="contact">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGrad6)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad6)"/>
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>CONTACT</h3>
+                        <p>Get in Touch</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="section-subtitle">Let's connect and discuss opportunities</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message"></textarea>
+                        </div>
+                        <button class="submit-btn">Send Message</button>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Zagazig, Shariqah, EG</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>ibadrmohamed99@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>+20 1090834566</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🔗</div>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <p><a href="https://www.linkedin.com/in/ibadrmohamed/" target="_blank">Connect on LinkedIn</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer" id="mainFooter">
+            <p>© 2026 Badr Mohamed. Data Analyst Portfolio. Crafted with passion.</p>
+        </footer>
+    </div>
+<script src="templatemo-nexa-scripts.js"></script>
+</body>
+</html>
